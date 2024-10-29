@@ -43,6 +43,7 @@ deb https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe 
 deb-src https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
 
 ```
+然后按下```esc```退出插入模式，输入```:wq```保存并退出文件
 这里其实是将原来apt的源更换为国内的阿里云镜像源<br /><br />
 
 换源后还需更新apt的列表
