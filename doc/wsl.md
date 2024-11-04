@@ -39,7 +39,7 @@ sudo cp sources.list sources.list.copy
 此时就将原来的配置文件拷贝为了```sources.list.copy```文件<br /><br />
 然后开始修改配置文件，使用vim打开该配置文件<br />
 ```bash
-vim sources.list
+sudo vim sources.list
 ```
 ![img6.png](/doc/img/241029/img6.png)<br />
 进入vim后，初始为命令模式，可以使用指令```dd```对一整行进行剪切操作，这里我们使用该命令快速地将原来的内容清除，之后按下```i```键进入插入模式，此时就能像使用记事本一样在文件中输入字符，我们复制以下内容后按下右键即可复制到文件中<br />
