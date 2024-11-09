@@ -69,15 +69,30 @@ sudo apt update
 ```
 ![img8.png](/doc/img/241029/img8.png)
 更新apt列表后才能正常的开始使用apt下载应用<br /><br />
+
 ### apt常用指令
 以下是apt中常用的指令
 ```bash
-更新系统中的应用
+# 更新系统中的应用
 sudo apt upgrade
 ```
 ![img9.png](/doc/img/241029/img9.png)
 ```bash
-下载应用（例如下载net-tools）
+# 下载应用（例如下载net-tools）
 sudo apt install net-tools
 ```
 ![img10.png](/doc/img/241029/img10.png)
+
+## 设置默认语言为中文
+
+```bash
+# 安装中文语言包
+sudo apt install language-pack-zh-hans
+# 设置默认语言
+sudo update-locale LANG=zh_CN.UTF-8
+```
+
+之后在powershell或cmd中重启wsl后就能生效
+```shell
+wsl --shutdown
+```
