@@ -4,4 +4,5 @@
 
 |标题|项目地址|
 |----|--------|
-|Windows Subsystem for Linux(WSL) 的安装及配置教程|[WSL的安装及配置](doc/wsl.md)|
+|Windows Subsystem for Linux(WSL) 的安装及配置教程|[![GitHub](https://img.shields.io/badge/GitHub-project-blue.svg)](https://github.com/learnbrown/WSL) [![Gitee](https://img.shields.io/badge/Gitee-project-red.svg)](https://gitee.com/dht1715305379/WSL)|
+|汇编语言学习记录|[![GitHub](https://img.shields.io/badge/GitHub-project-blue.svg)](https://github.com/learnbrown/Assumbly) [![Gitee](https://img.shields.io/badge/Gitee-project-red.svg)](https://gitee.com/dht1715305379/assembly)|
